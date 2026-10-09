@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地敏感文件 —— 绝不提交真实 Token
+.env
+.env.local
+*.local.json
+mcp-config.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时输出
+nutrition.json
+raw*.txt
